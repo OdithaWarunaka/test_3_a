@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="stylesheet" href="home.css">
+    <title>Website 3</title>
+</head>
+
+<body>
+    <div>
+
+    </div>
+    <div class="top_bar">
+
+        <form>
+            <i class="fas fa-search"></i>
+            <input type="text" name="" id="search_item" placeholder="Search" onkeyup="search()">
+        </form>
+        <div id="time-container"></div>
+        <div class="profile">
+            <img src="assest/profile.png" alt="" id="profile">
+            <div class="account" id="account">
+                <div class="account_tpbar">
+                    <h1>Account</h1>
+                    <button class="close_btn" id="xbtn">
+                        <img src="assest/close_icon.png" alt="">
+                    </button>
+                </div>
+                <div class="items_in_account" id="itemsInAccount">
+                    <div class="l_profile">
+                        <img src="assest/profile.png" alt="">
+                    </div>
+                    <h2>
+                        <b><u>W.God</u></b>
+                    </h2>
+                    <h3>
+                        <i>w.god@gmail.com</i>
+                    </h3>
+                    <h4 id="1stPass">dan-sapada</h4>
+                    <button class="edit" id="edit">Edit</button>
+                    <button class="logout" id="logout">Logout</button>
+                </div>
+                <div class="edit_tab_in_account" id="editTabInAccount">
+                    <div class="thi_in_etab">
+                        <div class="eie_pro_box">
+                            <h5><b>PROFILE</b></h5>
+                            <button class="eie_profile" id="eiePro">edit</button>
+                            <div class="e_profile">
+                                <img src="assest/profile.png" alt="">
+                            </div>
+                        </div>
+                        <div class="eie_name_box">
+                            <h4 id="nameText"><b>NAME</b></h1>
+                                <button class="eie_name" id="eieName">edit</button>
+                                <p><i>W.God</i></p>
+                        </div>
+                        <div class="eie_pass_box">
+                            <h1><b>Password</b></h1>
+                            <button class="eie_pass" id="eiePass">edit</button>
+                            <h2 id="2ndPass"><b>dan-sapada</b></h2>
+                        </div>
+                    </div>
+
+                    <button class="edit_ok" id="editOk">OK</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="left_side_bar">
+        <div class="buttons">
+            <button onclick="window.location.href='index.html'" class="Home_btn">
+                <img src="assest/home1.png" alt="Home">
+            </button>
+            <button onclick="window.location.href='favorite.html'" class="Favorite_btn">
+                <img src="assest/star1.png" alt="Favorite">
+            </button>
+            <button onclick="window.location.href='history.html'" class="History_btn">
+                <img src="assest/History1.png" alt="History">
+            </button>
+            <button onclick="window.location.href='cart.html'" class="Cart_btn">
+                <img src="assest/store1.png" alt="Cart">
+            </button>
+            <button onclick="window.location.href='settings.html'" class="Settings_btn">
+                <img src="assest/settings1.png" alt="Settings">
+            </button>
+        </div>
+        <div class="names">
+            <h1 onclick="window.location.href='index.html'">Home</h1>
+            <h2 onclick="window.location.href='favorite.html'">Favorites</h2>
+            <h3 onclick="window.location.href='history.html'">History</h3>
+            <h4 onclick="window.location.href='cart.html'">Cart</h4>
+            <h5 onclick="window.location.href='settings.html'">Settings</h5>
+        </div>
+
+    </div>
+
+    <div class="products" id="product">
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/supramk4.jfif" alt="">
+            </div>
+            <h1>supra mk4</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/supra mk5.jfif" alt="">
+            </div>
+            <h1>supra mk5</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/smokey nagata.jfif" alt="">
+            </div>
+            <h1>smokey's supra</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/paul walker supra.jfif" alt="">
+            </div>
+            <h1>paul walker supra</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/pagni.jfif" alt="">
+            </div>
+            <h1>pagani</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/r7.jfif" alt="">
+            </div>
+            <h1>r7</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/r32.jfif" alt="">
+            </div>
+            <h1>nissan R-32</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/r34.jfif" alt="">
+            </div>
+            <h1>nissan R-34</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/r35.jfif" alt="">
+            </div>
+            <h1>nissan R-35</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/RX7.jfif" alt="">
+            </div>
+            <h1>mazda RX-7 </h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Honda NSX.jfif" alt="">
+            </div>
+            <h1>Honda NSX</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/civic type R.jfif" alt="">
+            </div>
+            <h1>Honda civic</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/miata.jfif" alt="">
+            </div>
+            <h1>Miata</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Nissan 300ZX.jfif" alt="">
+            </div>
+            <h1>Nissan 300ZX</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/subaru WRX.jfif" alt="">
+            </div>
+            <h1>subaru WRX</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Nissan silvia.jfif" alt="">
+            </div>
+            <h1>Nissan silvia</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Honda Integra.jfif" alt="">
+            </div>
+            <h1>Honda Integra</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Nissan Fairlady Z.jfif" alt="">
+            </div>
+            <h1>Nissan Fairlady Z</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Toyota AE86.jfif" alt="">
+            </div>
+            <h1>Toyota AE86</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Toyota MR2.jfif" alt="">
+            </div>
+            <h1>Toyota MR2</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Toyota 2000GT.jfif" alt="">
+            </div>
+            <h1>Toyota 2000GT</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Nissan Pulsar.jfif" alt="">
+            </div>
+            <h1>Nissan Pulsar</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Honda Beat.jfif" alt="">
+            </div>
+            <h1>Honda Beat</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Autozam AZ-1.jfif" alt="">
+            </div>
+            <h1>Autozam AZ-1</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Subaru Impreza.jfif" alt="">
+            </div>
+            <h1>Subaru Impreza</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Honda Prelude.jfif" alt="">
+            </div>
+            <h1>Honda Prelude</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Mazda Cosmo.jfif" alt="">
+            </div>
+            <h1>Mazda Cosmo</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/McLaren F1.jfif" alt="">
+            </div>
+            <h1>McLaren F1</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Bugatti Veyron.jfif" alt="">
+            </div>
+            <h1>Bugatti Veyron</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Ferrari LaFerrari.jfif" alt="">
+            </div>
+            <h1>Ferrari LaFerrari</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/McLaren P1.jfif" alt="">
+            </div>
+            <h1>McLaren P1</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Porsche 918 Spyder.jfif" alt="">
+            </div>
+            <h1>Porsche 918 Spyder</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Koenigsegg Regera.jfif" alt="">
+            </div>
+            <h1>Koenigsegg Regera</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Lamborghini Huracán.jfif" alt="">
+            </div>
+            <h1>Lamborghini Huracán</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Pagani Huayra.jfif" alt="">
+            </div>
+            <h1>Pagani Huayra</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Ruf CTR.jfif" alt="">
+            </div>
+            <h1>Ruf CTR</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/McLaren Senna.jfif" alt="">
+            </div>
+            <h1>McLaren Senna</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Ferrari SF90.jfif" alt="">
+            </div>
+            <h1>Ferrari SF90</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/SSC Tuatara.jfif" alt="">
+            </div>
+            <h1>SSC Tuatara</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Lamborghini Essenza.jfif" alt="">
+            </div>
+            <h1>Lamborghini Essenza</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Valkyrie.jfif" alt="">
+            </div>
+            <h1>Valkyrie</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Lamborghini Countach.jfif" alt="">
+            </div>
+            <h1>Lamborghini Countach</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Rimac Nevera.jfif" alt="">
+            </div>
+            <h1>Rimac Nevera</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Mercedes-AMG One.jfif" alt="">
+            </div>
+            <h1>Mercedes-AMG One</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Koenigsegg Jesko.jfif" alt="">
+            </div>
+            <h1>Koenigsegg Jesko</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Pininfarina Battista.jfif" alt="">
+            </div>
+            <h1>Pininfarina Battista</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Lotus Evija.jfif" alt="">
+            </div>
+            <h1>Lotus Evija</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Pagani Utopia.jfif" alt="">
+            </div>
+            <h1>Pagani Utopia</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Ferrari Daytona.jfif" alt="">
+            </div>
+            <h1>Ferrari Daytona</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/McLaren Solus.jfif" alt="">
+            </div>
+            <h1>McLaren Solus</h1>
+            <h2>$34006</h2>
+        </div>
+        <div class="items">
+            <div class="imgs">
+                <img src="assest/Hennessey Venom.jfif" alt="">
+            </div>
+            <h1>Hennessey Venom</h1>
+            <h2>$34006</h2>
+        </div>
+    </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
